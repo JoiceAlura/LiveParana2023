@@ -1,0 +1,31 @@
+
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha() {
+
+    document.write("<br>");
+    document.write("<br>");
+}
+
+function mostra(frase) {
+
+    document.write(frase);
+    pulaLinha();
+}
+
+var anoCopa = 1930; 
+var limite = parseInt(prompt("Informe o ano limite para saber os anos de Copa."));
+
+while (anoCopa <= limite) 
+
+{
+	mostra ("Teve Copa do Mundo no ano de: " + anoCopa);
+	anoCopa = anoCopa + 4;  
+
+}	
+
+mostra ("FIM");
+
+</script>
